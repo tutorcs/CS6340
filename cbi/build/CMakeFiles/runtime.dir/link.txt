@@ -1,0 +1,5 @@
+https://tutorcs.com
+WeChat: cstutorcs
+QQ: 749389476
+Email: tutorcs@163.com
+/usr/bin/clang-8 -fPIC  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -ffunction-sections -fdata-sections  -Wl,-z,nodelete -shared  -o libruntime.so CMakeFiles/runtime.dir/lib/runtime.c.o   -L/home/cs6340/Documents/Lab-5-Cooperative-Bug-Isolation/cbi/build  -L/home/cs6340/Documents/Lab-5-Cooperative-Bug-Isolation/cbi/reference 
